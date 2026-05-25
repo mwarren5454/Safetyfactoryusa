@@ -42,3 +42,7 @@ header,footer,.btn{display:none}
 body{background:white}
 .card,.hero{box-shadow:none}
 }
+.checklist{list-style:none;padding:0;margin:24px 0;display:grid;gap:14px}
+.checklist li{margin:0}
+.checklist a{display:block;background:white;color:#172033;text-decoration:none;padding:18px 20px;border-radius:12px;box-shadow:0 4px 14px rgba(0,0,0,.05);font-weight:600}
+.checklist a:hover{background:#eef4ff;color:#1d4ed8}
