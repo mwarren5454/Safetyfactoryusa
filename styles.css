@@ -24,16 +24,16 @@ td,th{border:1px solid #d7dce5;padding:10px;text-align:left}
 footer{margin-top:48px;background:#101827;color:#cbd5e1;text-align:center;padding:30px 20px}
 
 @media(max-width:768px){
-  .hero{padding:56px 20px}
-  .hero h1{font-size:1.8rem}
-  .hero p{font-size:1rem}
-  .nav{justify-content:center;text-align:center}
-  nav{width:100%;justify-content:center;gap:12px}
-  nav a{padding:8px 6px}
+.hero{padding:56px 20px}
+.hero h1{font-size:1.8rem}
+.hero p{font-size:1rem}
+.nav{justify-content:center;text-align:center}
+nav{width:100%;justify-content:center;gap:12px}
+nav a{padding:8px 6px}
 }
 
 @media print{
-  header,footer,.btn{display:none}
-  body{background:white}
-  .card,.hero{box-shadow:none}
+header,footer,.btn{display:none}
+body{background:white}
+.card,.hero{box-shadow:none}
 }
